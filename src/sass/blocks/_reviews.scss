@@ -1,0 +1,43 @@
+.reviews{
+    .title{
+        padding-bottom: 16px;
+    }
+    &-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 70px;
+        margin-top: 56px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgb(246, 246, 246);
+        &:nth-child(3){
+            border-bottom: none;
+        }
+    }
+    &__img{
+        width: 167px;
+        height: 167px;
+    }
+    &__title{
+        font-size: 18px;
+        color: rgb(13, 13, 13);
+        text-align: left;
+    }
+    &__subtitle{
+        margin-top: 14px;
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+    }
+    &__descr{
+        margin-top: 22px;
+        width: 650px;
+        font-size: 16px;
+        color: rgb(13, 13, 13);
+    }
+    &__slogan{
+        margin-top: 28px;
+    }
+    &__thanks{
+        margin-top: 26px;
+    }
+}
